@@ -1,16 +1,13 @@
 #include <stdio.h>
-
 struct threeNum
 {
    char n1, n2, n3;
 };
-
 int main()
 {
    int n;
    struct threeNum num;
    FILE *fptr;
-
    if ((fptr = fopen("file.bin","rb")) == NULL){
        printf("Error! opening file");
           }  
