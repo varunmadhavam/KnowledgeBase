@@ -15,6 +15,6 @@ if(d==1)
  printf("1");
  return;
 }
-conv(d/2);
+conv(d>>1);
 printf("%d",d%2);
 }
