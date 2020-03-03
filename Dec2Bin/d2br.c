@@ -16,5 +16,5 @@ if(d==1)
  return;
 }
 conv(d>>1);
-printf("%d",d%2);
+printf("%d",d&1); //https://stackoverflow.com/questions/11040646/faster-modulus-in-c-c
 }
