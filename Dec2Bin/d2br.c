@@ -2,7 +2,10 @@
 void conv(unsigned int d);
 int main()
 {
-unsigned int a = 4995;
+unsigned int a;
+printf("Please enter the number : ");
+scanf("%u",&a);
+printf("The number %u in binary is : ",a);
 conv(a);
 printf("\n");
 return 0;
