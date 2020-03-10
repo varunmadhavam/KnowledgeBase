@@ -13,7 +13,7 @@ return 0;
 
 void conv(unsigned int d) // Function to convert decimal to binary using repeaed division by 2.
 {
-if(d==1) // Recussion ends when the input is one, ie we have reached the end of the repeated division.
+if(d==1) // Recurssion ends when the input is one, ie we have reached the end of the repeated division.
 {
  printf("1");
  return;
